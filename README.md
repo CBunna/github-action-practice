@@ -60,3 +60,21 @@ Click on the name of the run ("My First Deployment Robot").
 
 **Test**  Try to delete the index.html file => Expected the jobs fail - **RED CROSS SIGN** - due to missign file.
 
+
+
+# Automated Deployment Pipeline Project
+By [Bunna CHOM]
+
+## 🎯 The Goal
+To create a "Safety-First" deployment system that prevents broken code from reaching production.
+
+## 🛠️ Tools Used
+* **GitHub Actions** (Automation Robot)
+* **YAML** (Configuration)
+* **Bash Scripting** (Logic Checks)
+
+## 🛡️ Trust Features
+* **Auto-Testing**: The system automatically checks if core files (index.html) exist.
+* **Failure Prevention**: If a file is missing, the deployment stops immediately to protect the user experience.
+* **Speed**: Updates happen in under 60 seconds without human intervention.
+
