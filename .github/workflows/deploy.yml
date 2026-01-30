@@ -16,7 +16,7 @@ jobs:
       run: |
         if [ -f index.html ]; then
           echo "Success file is exist"
-        else:
+        else
           echo "Error! index.html file is not exit"
           exit 1
         fi
